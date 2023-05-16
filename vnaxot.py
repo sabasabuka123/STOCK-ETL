@@ -32,7 +32,7 @@ def get_historical_data(crypto_symbols, start_date, end_date):
 
 
 def get_current_data(crypto_symbols):
-    api_key = "b332c947-4e65-4464-8ac0-20e4647e0ac9"
+    api_key = "b332c947-4e65-4464-8ac0-20e"
     base_url = "https://min-api.cryptocompare.com/data/pricemultifull"
 
     current_data = {}
