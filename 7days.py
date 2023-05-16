@@ -4,7 +4,7 @@ def format_number(number):
     # Convert number to string and format with commas
     return "{:,}".format(number)
 def get_historical_data(crypto_symbols, start_date, end_date):
-    api_key = "b332c947-4e65-4464-8ac0-20e4647e0ac9"
+    api_key = "b332c947-4e65-4464-8ac0-20e49"
     base_url = "https://min-api.cryptocompare.com/data/v2/histoday"
 
     historical_data = {}
