@@ -2,10 +2,10 @@ import requests
 from datetime import datetime, timedelta
 import pyodbc
 
-server = '192.168.1.4'
+server = '192.164'
 database = 'test'
 username = 'sa'
-password = 'SqlPassW0rd'
+password = 'Sqd'
 
 
 def format_number(number):
@@ -14,7 +14,7 @@ def format_number(number):
 
 
 def get_historical_data(crypto_symbols, start_date, end_date):
-    api_key = "b332c947-4e65-4464-8ac0-20e4647e0ac9"
+    api_key = ""
     base_url = "https://min-api.cryptocompare.com/data/v2/histoday"
 
     historical_data = {}
